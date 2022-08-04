@@ -1,5 +1,5 @@
 # terminal-resume-cv
-Live example at: [https://thealgorich.com/phil/cv](https://thealgorich.com/phil/cv])
+Live example at: [https://thealgorich.com/phil/cv](https://thealgorich.com/phil/cv)
 
 # General Information
 An easy to setup and (almost) fully customizable command line style CV theme.
