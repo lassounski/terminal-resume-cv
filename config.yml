@@ -1,0 +1,340 @@
+## Example Config file
+BaseURL: "https://thealgorich.com/"
+#theme: "terminalCV"
+title: "Phil CV (Algorich)"
+
+params:
+  description: "Phil CV (Algorich)"
+  prompt: "recruiter@thealgorich"
+  promptColor: "#03C03C"
+# promptSimbols: ":~$"
+  promptSimbolsColor: "#03C03C"
+# startxLocation: https://example.com
+# hideSocialName: true
+  exitLocation: 'about:blank'
+# hidesource: true
+  greeting: | 
+    Welcome to my online resume
+
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+      name: "'Phil' Kirill Lassounski"
+      profession: "Computer Programmer"
+      location: "Amsterdam, NL"
+      email: "phil@thealgorich.com"
+      homelink: "https://thealgorich.com"
+      description: |
+              Brazil. It all started in 1995 when as a young boy I had my first contact with a 468 series computer. 
+              I just wanted to play Mario but when I realised that I could issue commands and program the machine, it hit me.
+              As of this moment, the decision was made to follow a study in Computer Science. 
+
+              By the end of my studies, a trip to Portugal and Spain was arranged so I could present the scholarship work performed during my studies (a data mining tool for biomedicine).  
+              Europe made a huge impact on me and I started dreaming of living in that continent.
+
+              Back in Rio, got my first job as a Java Junior developer in the biggest oil company in the country. 
+              Only to realise that my team disregarded unit testing as a good practice and that refactoring code was a dangerous undertaking.
+              I worked hard, trying to convince my peers the benefits of TDD and clean coding.
+              Being a Junior, I had no credibility, it was time to move on.
+
+              Made my move to Sao Paulo into a company that had true craftsman writing software and being coached by the best, my skillset skyrocketed.
+              I was fluent in functional programming, mastered cloud computing and the infamous Spring framework. In no time I was giving presentations on TDD and training small teams for new projects! 
+              Feeling committed to my work I go to my manager and ask for a promotion:
+
+              - Hi Leonardo I'd like to talk to you about my progress in the company.
+              - Phil you're doing an exceptional job, we even gave you a recognition diploma and a voucher for books!
+              - I really appreciate that but I really need a salary increase since I want to move in together with my girlfriend and buy a house. In the last two years I proved myself as a good employee haven't I?
+              - You did indeed! But currently we have no management positions to fulfil, it's not gonna happen.
+              - I don't need a promotion Leo, just a salary raise  is more than enough to make me happy.
+              - Phil, the market is out there. It's all up to you.
+
+              With my request denied, my girlfriend gone and my dreams scattered I decide to pursue my dream of working abroad.
+              I take action and after a lot of failed interviews, English lessons and no's, I finally start cracking interviews for jobs in Europe and the US. I was ready.
+
+              Coming to the Netherlands was the dream coming true, and moving through my journey from employee to freelancer was fulfilling.
+              Today I am using my full potential in solving problems for every client that decides to work together with me. 
+              I bring to the table my pragmatic programmer approach, my positive energy and focus on results and quality.
+
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "github"
+      url: "          https://github.com/lassounski"
+    - name: "linkedIn"
+      url: "          https://www.linkedin.com/in/lassounski"
+
+  work:
+    - jobTitle: Proficient Programmer | iDEAL Payments
+      color: orange
+      company: ING
+      location: Amsterdam, NL
+      date: August 2021 - Present
+      description: |
+        When I arrived in this team I realised that I just got dropped into a legacy code base.
+        There was code created 10 years ago, use of IBM MQ and Tibco services. Looked like the code haven't
+        seen refactoring for years. There was a decent code coverage, but lots of tests were written just to check the boxes.
+
+        My biggest contribution in this team was the modernisation of its testing infrastructure, redesign of several components
+        and proper Springification of the internals. 
+        I wanted to make a good clean up on unused code as well as improve the design of critical parts of the application.
+
+        Besides that, I also:
+        * migrated the application to an updated Auth mechanism
+        * migrated the application to Kubernetes
+        * perfomed stand by activities
+        * migrated into Azure DevOps
+
+        Skills: Java · Spring Framework · JUnit · Maven · Git · Spring Boot · Kubernetes · Azure DevOps
+
+    - jobTitle: Proficient Programmer | Agreements Overview
+      color: orange
+      company: ING
+      location: Amsterdam, NL
+      date: August 2020  - August 2021 (1 year)
+      description: |
+        Agreements overview exposes to the user all those details when he first opens his mobile banking.
+        Current account, savings, mortgage, credit card and so on. It is an aggregation API that is called for every time someone opens Mobile or Web.
+        With a very high TPS rate it was really interesting working in this team.
+
+        I delivered value by adding functionality into the code base and driving the efforts of the migration towards Azure DevOps and Open Shift Kubernetes.
+
+        Skills: Java · Spring Framework · JUnit · Maven · Git · Spring Boot · Microservices · Kubernetes · Azure DevOps
+
+    - jobTitle: Programmer
+      color: blue
+      company: EuroCCP (European Central Counterparty N.V.)
+      location: Amsterdam, NL
+      date: December 2018 - April 2020 (5 months)
+      description: |
+        Worked on the development on a Kafka distributed application that supported the equity derivatives clearing and settlement for the European market.
+
+        Skills: Java · Spring Framework · Hibernate · JUnit · Maven · Git · Spring Boot · Microservices
+
+    - jobTitle: Sr. Software Engineer
+      color: green
+      company: ABN·AMRO
+      location: Amsterdam, NL
+      date: December 2018 - April 2020 (1.5 years)
+      description: |
+        Worked as a "fireman" for a special team in the account & savings grid. 
+        Performed tasks from architecting systems, to developing (TDD) and DevOps. 
+        Was the leader of a team with 4 developers focusing on all Java related activities. 
+        Migrated legacy mainframe applications to AWS and re-wrote them to use Spring framework.
+
+        Skills: Java · Spring Framework · AWS · Hibernate · JUnit · Maven · Git · Spring Boot · Microservices
+
+    - jobTitle: Software Consultant
+      color: blue
+      company: ASML (deployed by WAES)
+      location: Amsterdam, NL
+      date: Januray 2018 - December 2018 (1 year)
+      description: |
+        ASML is an expert in manufacturing lithography machine, what's that?
+        A machine like that (called scanner) is capable of producing semi conductors at a very high speed.
+        See, the thing is that the machine is so precise (nano meters) that any disturbance in the soil and even earth movement can influence in it's performance.
+        To improve the machine's performance software is required. 
+        The scanner and the machine that assists him (metrology), all send their data to a super computer responsible of analyzing it and making real time corrections in the lithography process.
+        I worked as Desing Engineer on a project that provides the base layer for all lithography applications. 
+        I developed that layer using the Java platform and the Hadoop stack.
+
+        Skills: Java · Spring Framework · Hibernate · JUnit · Maven · Git · Spring Boot · Microservices · Hadoop
+
+    - jobTitle: Java Software Engineer
+      color: purple
+      company: Encora
+      location: Campinas, SP - Brazil
+      date: June 2016 - December 2017 (1.7 year)
+      description: |
+        Worked on a platform that supports text (SMS and MMS) transmission through the cloud. 
+        This allowed our customers to send messages using our REST API and control all the flow through callbacks.
+
+        Besides the text team, there’s another voice team responsible for the calls. 
+        One of my achievements was to split the REST API into separate modules (voice, text and commons) to allow our platform to scale and make it more tolerant in the case that one of the API instances goes down. 
+        Using the Application Load Balancer from AWS I have routed the requests to each API’s target group using the URL for that request.
+
+        Another achievement was the implementation of a centralized config service for the micro services. 
+        I used the Spring Cloud Config solution to implement a Config Server that reads the configs from a private GitHub repository and has a local fallback repo. 
+        The whole infrastructure is automated using Ansible and Packer and the AWS cloud service.
+
+        I have been recognized for getting a new team of developers fup to speed or a new project. 
+        I was responsible for guiding their studies and asserting the code quality. 
+
+        Skills: Java · Spring Framework · Hibernate · JUnit · Maven · Git · Spring Boot · AWS
+        
+    - jobTitle: Java Software Engineer
+      color: purple
+      company: Encora
+      location: Campinas, SP - Brazil
+      date: June 2016 - December 2017 (1.7 year)
+      description: |
+        Worked on a platform that supports text (SMS and MMS) transmission through the cloud. 
+        This allowed our customers to send messages using our REST API and control all the flow through callbacks.
+
+        Besides the text team, there’s another voice team responsible for the calls. 
+        One of my achievements was to split the REST API into separate modules (voice, text and commons) to allow our platform to scale and make it more tolerant in the case that one of the API instances goes down. 
+        Using the Application Load Balancer from AWS I have routed the requests to each API’s target group using the URL for that request.
+
+        Another achievement was the implementation of a centralized config service for the micro services. 
+        I used the Spring Cloud Config solution to implement a Config Server that reads the configs from a private GitHub repository and has a local fallback repo. 
+        The whole infrastructure is automated using Ansible and Packer and the AWS cloud service.
+
+        I have been recognized for getting a new team of developers fup to speed or a new project. 
+        I was responsible for guiding their studies and asserting the code quality. 
+
+        Skills: Java · Spring Framework · Hibernate · JUnit · Maven · Git · Spring Boot       
+
+    - jobTitle: System Analyst (through TCS and Spassu)
+      color: yellow
+      company: Petrobras
+      location: Macae, RJ - Brazil
+      date: March 2012 - May 2016 (4.4 year)
+      description: |
+        Working as a software engineer in the oil and gas field is a very demanding task. The software has a complex domain and the code must be impeccable because error would cost the company millions.
+
+        I worked in several systems, most of them in Java (JSP, EJB, JAX-RS, Hibernate, Maven, POI) and some in Groovy (Grails). I had always believed that automated testing is essential to guarantee the quality of the code, but in the Java community that point of view is not shared among the developers. I convinced my boss and colleagues that testing is important and pioneered testing practices in my team.
+
+        Accomplishments:
+
+        * Pioneer in automating browser testing in our team
+        * Known as the clean coder and refactor guy
+        * Delivered all the projects that were assigned to me on schedule
+
+        Skills: Java · JUnit · Maven · Git
+
+  education:
+   - courseName: B.Sc. Computer Science - UENF
+     color: blue
+     date: January 2007 - December 2012
+     description: Learned how to write basic computer programs here, focused on Data Mining with Natural Language Processing for my thesis.
+
+  skills:
+    - name: Java
+      color: red
+      percentage: 90
+      Description: My main programming language
+
+    - name: JUnit + Mockito + AssertJ + Test Containers
+      color: green
+      percentage: 95
+      description: My testing toolkit
+
+    - name: Spring Framework (Boot)
+      color: green
+      percentage: 90
+      description: My go to framework
+
+    - name: AWS
+      color: orange
+      percentage: 50
+      description: Favorite cloud platform, worked with it in couple of companies
+
+    - name: Azure DevOps
+      color: blue
+      percentage: 75
+      description: The cloud platform I worked the latest
+
+    - name: Reactor
+      color: green
+      percentage: 65
+      description: My new shiny toy, learning to be reactive
+
+    - name: Kafka
+      percentage: 80
+      description: Go to queuing system to solve problems that involve asynchronous and distributed systems
+
+    - name: GIT
+      color: red
+      percentage: 85
+      description: The amazing GIT, what can I say? It's perfect
+
+  softskills:
+    - name: Contagious Energy
+      color: red
+      percentage: 100
+      description: I am the right person to add to your team if lack of energy is an issue, whooooooaaaaa!
+
+    - name:  Team Player
+      color: blue
+      percentage: 90
+      description: Because I'm a social creature, working with people is a pleasure for me. I love mingling, discussing and coaching.
+
+    - name:  Clean code evangelist
+      color: green
+      percentage: 100
+      description: They say that you know a man by looking at his house, and my house is VERY clean.
+
+    - name:  Presenter / Lecturer
+      percentage: 75
+      description: I like to step out of my confort zone and be exposed to an audience, I should do that more often.
+
+    - name:  Go Giver
+      color: orange
+      percentage: 90
+      description: |
+        I am a true beliver of the law of reciprocity. It is by giving that one shall receive.
+        Sharing knowledge, helping others, serving. Things that only brought me happiness and fullfilment.
+
+  languages:
+    - name: English 🇺🇸
+      color: blue
+      percentage: 95
+      description: Duh!
+
+    - name: Portuguese 🇧🇷
+      percentage: 100
+      color: green
+      description: That's what people from Brazil speak
+
+    - name: Spanish 🇪🇸
+      percentage: 80
+      color: yellow
+      description: Learned during my travels in my favourite country
+
+    - name: Russian 🇷🇺
+      percentage: 70
+      color: blue
+      description: From my times at KGB
+
+    - name: Dutch 🇳🇱
+      percentage: 45
+      color: red
+      description: Ik spreek genoeg om het inburgeringsexamen te halen
+
+
+  projects:
+    - title: Wolves Club
+      color: white
+      date: March 2020 / April 2021
+      description: I had started up a brand that was selling men jewelry, yep! Not really my thing.
+
+    - title: Learn with Phil
+      color: green
+      date: since 2022
+      link: https://thealgorich.com/blog/
+      description: Education project where I teach on how test back-end systems
+
+  misc: 
+    commandName: passion
+    title: "Why you're reading this..."
+    titleColor: yellow
+    content: |
+          On one of my trips to Africa I found myself in an existential crisis.
+          I had no idea why I was feeling so bad and unhappy, but I knew that I had to change something.
+          My decision was to move to a fisherman's village and stay there until I figured things out.
+
+          After a week, on one of those warm African nights, I find myself lying on the grass and looking at the Milky Way.
+          I realised that I had everything and that I should be greatful for the life that was given to me.
+
+          On that night, I decided to seek purpose. I took a pencil and a piece of paper and started writing.
+          After spending some hours at it I finally understood what I wanted to do with my life.
+          To serve. That's it. I wanted to serve people.
+
+          I had no idea on how to serve people so I started studying. 
+          After structuring it all I had the idea of creating "Learn with Phil" where I would share my knowledge with others.
+          Suddenly, I needed a blog, learn how to record videos, contribute to GitHub, how to edit text and how to tell stories. Whoa!
+          Of course I need also to put food on the table so I will keep on programming for my clients, but that comes easy since coding is my passion.
+
+          With that said, that's what I am at now. 
+          I am energised and I am eager to take on this new journey.
+    contentColor: "#03C03C"
